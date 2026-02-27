@@ -1,11 +1,11 @@
-for n in range(1, 50):
-    if n%2==0:
-        print(f"{n} is even")
-    else:
-        print(f"{n} is odd")
+def even_odd(start, end):
+    for n in range(start, end):
+        if n%2==0:
+            print(f"{n} is even")
+        else:
+            print(f"{n} is odd")
 
-
-
+even_odd(10, 20)
 
 
 
