@@ -1,4 +1,6 @@
-if 10%2==0:
+n = int(input("Enter the value of n : "))
+
+if n%2==0:
     print(f"even")
 else:
     print(f"odd")
